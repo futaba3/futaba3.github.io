@@ -1,20 +1,58 @@
-a{
+* {
+    margin:0; padding:0;
+}
+
+.container{
+    margin: 20px;
+}
+
+.header{
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: #EF6031;
+}
+
+.headerTitle{
     font-family: "M PLUS Rounded 1c";
-    color: blue;
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
 }
 
 p{
     font-family: "M PLUS Rounded 1c";
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
-h1{
+.title{
     font-family: "M PLUS Rounded 1c";
+    color: #295EA4;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 h2{
     font-family: "M PLUS Rounded 1c";
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 h4{
     font-family: "M PLUS Rounded 1c";
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+a{
+    font-family: "M PLUS Rounded 1c";
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: blue;
 }
